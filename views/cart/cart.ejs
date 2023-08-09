@@ -55,7 +55,7 @@
     const paymentHandler = async () => {
 const API_URL = 'http://localhost:5000/'
 const orderUrl = `${API_URL}order`;
-const response = await fetch(orderUrl,{
+const response = await fetch('/order',{
   method:'POST',
   headers:{
     "Content-Type":'application/json'
